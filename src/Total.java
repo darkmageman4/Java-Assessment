@@ -3,9 +3,9 @@ public class Total {
         return bill + (tipPercentage / 100 * bill);
     }
     public static void even(int[] num){
-        for (int j : num) {
-            if (j % 2 == 0) {
-                System.out.println(j);
+        for (int i : num) {
+            if (i % 2 == 0) {
+                System.out.println(i);
             }
         }
     }
